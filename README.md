@@ -5,8 +5,8 @@
 
 ----
 
-Закрытые ключи криптопровайдера КриптоПРО хранятся в реестре в ветке "HKEY_LOCAL_MACHINE\SOFTWARE\Crypto Pro\Settings\Users\{SID-user}\Keys", либо
-"HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Crypto Pro\Settings\Users\{SID-user}\Keys" в x64 версии ОС. 
+Закрытые ключи криптопровайдера КриптоПРО хранятся в реестре в ветке **"HKEY_LOCAL_MACHINE\SOFTWARE\Crypto Pro\Settings\Users\\{SID}\Keys"**, 
+либо **"HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Crypto Pro\Settings\Users\\{SID}\Keys"** в x64 версии ОС. 
 * Структура закрытого ключа в реестре:
 ```
 ->header.key   REG_BINARY 00 00 ..
